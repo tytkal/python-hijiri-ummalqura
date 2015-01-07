@@ -54,3 +54,7 @@ if you want the current day
 um = HijriDate()
 um.today()
 ```
+##Reference
+The Hijri algorthem code has been transulate from javascript to python.
+The java script was developed by Suhail Alkowaileet https://github.com/xsoh/Hijri.js/blob/master/Hijri.js
+also I use this code for more understanding https://github.com/kbwood/calendars/blob/master/jquery.calendars.ummalqura.js
