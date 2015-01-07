@@ -1,4 +1,4 @@
-#Pythoh Hijri Umalqurra
+#Python Hijri Umalqurra
 ##Introduction
 Python Umalqurra Calender is an API that will give you the ability to convert Gregorian to Hijri and hijri to Gregorian
 it will give you the day name in arabic and english , and the month name in Hijri arabic and Gregorian.
