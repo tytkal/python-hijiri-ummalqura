@@ -51,8 +51,8 @@ um.set_date_from_gr(2015,1,6)
 ```
 if you want the current day 
 ```py
-um = HijriDate()
-um.today()
+um = HijriDate.today()
+um.day
 ```
 ##Reference
 The Hijri algorthem code has been transulate from javascript to python.
