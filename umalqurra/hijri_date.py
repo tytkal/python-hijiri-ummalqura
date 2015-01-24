@@ -56,6 +56,8 @@ class HijriDate:
         self.day_name = self.day_dict[self.day_name_en]
         self.month_name_gr = date_gr.strftime("%B")
 
-    def today(self):
+    @classmethod
+    def today(cls):
         today = date.today()
-        self.set_date_from_gr(today.year,today.month,today.day)
+        hijri_date = HijriDate(today.year,today.month,today.day,True)
+        return hijri_date
