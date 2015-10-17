@@ -14,6 +14,8 @@ class HijriDate:
     day = -1
     #month in hijri
     month = -1
+    #month len
+    month_len = -1
     #year in hijri
     year = -1
     day_gr = -1
@@ -39,7 +41,7 @@ class HijriDate:
     def set_date_from_gr(self,year,month,day):
         um = Umalqurra()
         self.day_gr, self.month_gr, self.year_gr = day, month, year
-        self.year, self.month, self.day = um.gegorean_to_hijri(year,month,day)
+        self.year, self.month, self.day, self.month_len = um.gegorean_to_hijri(year,month,day)
         self.month_name = self.month_dict[self.month]
         date_gr = date(year,month,day)
         self.day_name_en = date_gr.strftime("%A")
