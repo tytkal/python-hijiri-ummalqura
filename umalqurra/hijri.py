@@ -3,7 +3,7 @@ from ummalqura_arrray import UmalqurraArray
 '''
 This class is responsoble to convert from Hijri to Gregorian or from Gregorian to Hijri
 The algrothem was converted  from java script to python by Khalid Al-hussayen in 1436-3-14 2015-1-5
-The orjinal source developed by Suhail Alkowaileet the source url https://github.com/xsoh/Hijri.js/blob/master/Hijri.js 
+The orjinal source developed by Suhail Alkowaileet the source url https://github.com/xsoh/Hijri.js/blob/master/Hijri.js
 '''
 
 class Umalqurra:
@@ -34,7 +34,8 @@ class Umalqurra:
         iy = ii + 1
         im = iln - 12 * ii
         id = mcjdn - UmalqurraArray.ummalqura_dat[index - 1] + 1
-        return iy, im, id
+        ml = UmalqurraArray.ummalqura_dat[index] - UmalqurraArray.ummalqura_dat[index - 1]
+        return iy, im, id, ml
 
     def hijri_to_gregorian(self, year, month, day):
         year = int(year)
