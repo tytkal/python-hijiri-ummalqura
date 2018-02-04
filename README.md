@@ -58,3 +58,11 @@ um.day
 The Hijri algorthem code has been transulate from javascript to python.
 The java script was developed by Suhail Alkowaileet https://github.com/xsoh/Hijri.js/blob/master/Hijri.js
 also I use this code for more understanding https://github.com/kbwood/calendars/blob/master/jquery.calendars.ummalqura.js
+
+License
+-------
+
+MIT
+
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE
