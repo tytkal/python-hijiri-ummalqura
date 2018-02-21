@@ -7,7 +7,7 @@ This Api will give the ability to convert Gregorian To Hijri or Hijri to Gregori
 You can query for the current day in both Hijri and Gregorian
 '''
 __author__ = 'Khalid'
-from .hijri import Umalqurra
+from umalqurra.hijri import Umalqurra
 from datetime import date
 class HijriDate:
     #day in hijri
