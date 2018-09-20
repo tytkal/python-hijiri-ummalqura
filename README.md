@@ -1,13 +1,13 @@
-#Python Hijri Umalqurra
-##Introduction
+# Python Hijri Umalqurra
+## Introduction
 Python Umalqurra Calender is an API that will give you the ability to convert Gregorian to Hijri and hijri to Gregorian
 it will give you the day name in arabic and english , and the month name in Hijri arabic and Gregorian.
-##Install
+## Install
 You can install the library through pip 
 ```sh
 pip install umalqurra
 ```
-##Usage
+## Usage
 you can run the code in the python interpreter to see the result 
 ```py
 from umalqurra.hijri_date import HijriDate
@@ -54,7 +54,7 @@ if you want the current day
 um = HijriDate.today()
 um.day
 ```
-##Reference
+## Reference
 The Hijri algorthem code has been transulate from javascript to python.
 The java script was developed by Suhail Alkowaileet https://github.com/xsoh/Hijri.js/blob/master/Hijri.js
 also I use this code for more understanding https://github.com/kbwood/calendars/blob/master/jquery.calendars.ummalqura.js
