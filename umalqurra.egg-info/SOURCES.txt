@@ -1,0 +1,10 @@
+README.md
+setup.py
+umalqurra/__init__.py
+umalqurra/hijri.py
+umalqurra/hijri_date.py
+umalqurra/ummalqura_arrray.py
+umalqurra.egg-info/PKG-INFO
+umalqurra.egg-info/SOURCES.txt
+umalqurra.egg-info/dependency_links.txt
+umalqurra.egg-info/top_level.txt
